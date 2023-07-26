@@ -1,8 +1,25 @@
-h1 {
+header {
     background: salmon;
-    color: #00171f;
+    color: #120B5B;
     font-family: Helvetica, Arial, sans-serif;
-    line-height: 3;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Belanosima', sans-serif, 'Caprasimo';
+    
+}
+
+button {
+    background: #120B5B; 
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
     text-align: center;
 
-    
+}
