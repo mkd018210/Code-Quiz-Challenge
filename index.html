@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz Challenge</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
     <header>
-    <h1>Code Quiz</h1>
-    <button class="start-button">Start</button>
-    <header>  
-        <script src="assets/js/script.js"></script>   
+        <h1>Code Quiz</h1>
+        <button class="start-button">Start</button>
+        <header>
+            <main>
+                <section>
+                    <div class="card word-guess">
+
+                    </div>
+                </section>
+
+                <section>
+                    <div class="card results">
+                        <div class="win-loss-container">
+                            <div>
+                                <h2>Wins: <span class="win">0 </span> </h2>
+                                <h2>Losses: <span class="lose">0</span></h2>
+                            </div>
+                            <button class="reset-button">Reset Score</button>
+                        </div>
+                        <div class="card timer">
+                            <div class="timer-text">
+                                <div class="large-font timer-count">10</div>
+                                <h3>seconds remaining</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+            <script src="assets/js/script.js"></script>
 </body>
+
 </html>
